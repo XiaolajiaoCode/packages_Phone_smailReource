@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.phone.yun.yunbg
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        >
+    <include android:id="@id/mSimCallCard" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/call_card_multi_sim_yep" />
+    <include android:id="@id/inCallTouchUiMSim" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/incall_touch_ui_msim_yep" />
+    <ViewStub android:id="@id/otaCallCardStub" android:layout="@layout/otacall_card" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/manageConferencePanelStub" android:layout="@layout/manage_conference_panel_yep" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.android.phone.yun.yunbg>
+</FrameLayout>

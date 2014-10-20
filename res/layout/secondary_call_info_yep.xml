@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="top|center" android:id="@id/secondaryCallPhoto" android:layout_width="@dimen/call_card_photo_size_width_height_825A" android:layout_height="@dimen/call_card_photo_size_width_height_825A" android:layout_marginTop="5.0dip" android:layout_marginBottom="10.0dip" android:scaleType="centerCrop" android:contentDescription="@string/contactPhoto" />
+    <View android:id="@id/dim_effect_for_secondary_photo" android:background="#77000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="30.0sp" android:textColor="@color/incall_call_banner_text_color" android:gravity="center" android:id="@id/secondaryCallName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/incall_call_banner_text_color" android:ellipsize="end" android:layout_gravity="left" android:id="@id/secondaryCallStatus" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/onHold" android:singleLine="true" android:textAllCaps="true" />
+</FrameLayout>
