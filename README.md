@@ -8,5 +8,5 @@ M8228 4.3 Phone反编译资源
 + 背景采用模糊静态壁纸
 + 通话设置主题
 
-！[UI界面图](screenshot.png)
+![UI界面图](screenshot.png)
 
